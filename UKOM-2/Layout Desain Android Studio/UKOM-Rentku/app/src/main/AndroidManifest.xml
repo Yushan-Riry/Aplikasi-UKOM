@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yapi.rentku">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="Rentku"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Rentku">
+        <activity android:name=".persewaan.EditToko"></activity>
+        <activity android:name=".penyewa.EditSaya" />
+        <activity android:name=".partnership.FormulirLanjut" />
+        <activity android:name=".persewaan.PostingEdit" />
+        <activity android:name=".persewaan.HasilPosting" />
+        <activity android:name=".persewaan.PostingBaru" />
+        <activity android:name=".partnership.FormulirBaru" />
+        <activity android:name=".penyewa.Sewaanku" />
+        <activity android:name=".penyewa.FormulirSewa" />
+        <activity android:name=".penyewa.profesi.BajuProfesi" />
+        <activity android:name=".penyewa.profesi.DetailProfesi" />
+        <activity android:name=".penyewa.SelamatRegistrasi" />
+        <activity android:name=".penyewa.Registrasi" />
+        <activity android:name=".penyewa.adat.BajuAdat" />
+        <activity android:name=".penyewa.adat.DetailAdat" />
+        <activity android:name=".penyewa.profesi.Profesi" />
+        <activity android:name=".penyewa.adat.Adat" />
+        <activity android:name=".penyewa.Sayawpartner" />
+        <activity android:name=".penyewa.Sayaktp" />
+        <activity android:name=".persewaan.Toko" />
+        <activity android:name=".persewaan.Disewa" />
+        <activity android:name=".persewaan.Posting" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".penyewa.Saya" />
+        <activity android:name=".penyewa.Riwayat" />
+        <activity android:name=".penyewa.Keranjang" />
+        <activity android:name=".dm.Daftar" />
+        <activity android:name=".dm.Masuk" />
+        <activity android:name=".MainActivity" /> <!-- SPLASH SCREEN -->
+        <activity
+            android:name=".splashscreen.Splashscreen"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
