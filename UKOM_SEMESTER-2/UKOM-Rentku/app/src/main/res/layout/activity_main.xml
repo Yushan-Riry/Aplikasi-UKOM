@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvnnamaact"
+        android:layout_width="425dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bgbirubiasa"
+        android:hint="Halo, Penyewa1 !"
+        android:paddingLeft="240sp"
+        android:paddingTop="20sp"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="195dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="198dp"
+        android:layout_marginTop="130dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvnnamaact" />
+
+    <SearchView
+        android:id="@+id/searchView2"
+        android:layout_width="195dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="198dp"
+        android:layout_marginTop="175dp"
+        android:background="@color/white"
+        android:searchIcon="@drawable/valokasi"
+        app:layout_constraintBottom_toBottomOf="@+id/tvnnamaact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="250dp"
+        android:text="Mau sewa apa hari ini ?"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvnnamaact" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="380dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/bgabu"
+        android:paddingLeft="125sp"
+        android:paddingTop="45sp"
+        android:text="Baju Adat"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="380dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/bgabu"
+        android:paddingLeft="120sp"
+        android:paddingTop="45sp"
+        android:text="Baju Profesi"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        android:background="@color/birumuda"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvnnamaact"
+        android:layout_alignBottom="@+id/tvnnamaact"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="260dp"
+        android:layout_marginBottom="2dp"
+        tools:srcCompat="@drawable/rentkulogo" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="360dp"
+        android:onClick="panahadat"
+        app:srcCompat="@drawable/vapanah" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="520dp"
+        android:onClick="panahprofesi"
+        app:srcCompat="@drawable/vapanah" />
+
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "156653317266",
+    "project_id": "riry-46a31",
+    "storage_bucket": "riry-46a31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156653317266:android:e38ea155dec8d32c988a4b",
+        "android_client_info": {
+          "package_name": "com.yapi.rentku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156653317266-6t1dboign3idjb8cglrdc01v8v7jrmru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yapi.rentku",
+            "certificate_hash": "04cd85c1dd5653ede9a335dcce623ee51a880f05"
+          }
+        },
+        {
+          "client_id": "156653317266-ons578ed5tsea3tgd005d2u0ufkn4672.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7STlwiwNi1Wp4KF3qT4ikR0k_B-fDk74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156653317266-ons578ed5tsea3tgd005d2u0ufkn4672.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

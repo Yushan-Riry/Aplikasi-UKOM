@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title=""
+        android:icon="@drawable/vahome"/>
+
+    <item
+        android:id="@+id/cart"
+        android:title=""
+        android:icon="@drawable/vakeranjang"/>
+
+    <item
+        android:id="@+id/history"
+        android:title=""
+        android:icon="@drawable/vahistory"/>
+
+    <item
+        android:id="@+id/me"
+        android:title=""
+        android:icon="@drawable/vasaya"/>
+
+</menu>
